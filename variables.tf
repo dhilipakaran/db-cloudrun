@@ -1,6 +1,5 @@
 variable "project_id" {
   default = "galvanic-portal-456405-a2"
-  type        = string
 }
 
 variable "region" {
