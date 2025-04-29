@@ -15,7 +15,7 @@ resource "google_sql_database_instance" "postgres_instance" {
       ipv4_enabled    = true
       authorized_networks {
         name  = "allow-all"
-        value = "0.0.0.0/0"  # Use this cautiously for public access; for private IP, use private network instead
+        value = "0.0.0.0/0"  
       }
     }
 
